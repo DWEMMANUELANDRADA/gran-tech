@@ -1,0 +1,147 @@
+body{
+    background-color: mintcream;
+    
+  
+}
+/*barra lateral*/
+.aside{
+    border-radius: 10px ;
+    /*box-shadow: 45px 1px 90px 1px rgba(0,0,0,0.8);*/
+    background-color: #cccc;
+    width: 10%;
+    position: fixed;
+    opacity: 1;
+     transition: all .5s ease-in;
+    
+   
+    
+}/*animacion barra lateral*/
+.vista{
+    opacity: 0;
+    transition: all .5s ease-in;
+    
+    
+}
+.menu-toggle:hover{
+cursor: pointer;
+
+}/*imagen personal, personalizada*/
+.stampa{
+position: relative;
+top: 1px;
+margin: 2px;
+}
+/*menu-tamaño*/
+#menu-toggle{
+   font-size: 40px;
+   margin-top: 20px;
+   
+   
+   
+}/*aside*/
+.list-group a{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 45px;
+    text-decoration: none;
+}
+.list-group a i{
+    margin-right: 10px;
+    padding: 15px;
+}
+.list-group a:hover{
+   color: whitesmoke;
+   background: #007bff;
+   border-radius: 8px;
+}/*contenedores principales*/
+.container-fluid{
+    border-radius: 10px;
+    background-color: #cccc;
+}
+.container{
+    margin-top: 125px;
+    background-color: #cccc;
+}
+a:link{
+    text-decoration: none;
+}
+
+/*barra inicio navegacion*/
+.imagen-fondo, .card{
+    border-radius: 10px;
+}
+.imagen-personal{
+    
+    position: relative;
+    bottom:  90px;
+    width: 40px;
+    
+   
+}
+.btn{
+    position: relative;
+    bottom: 10px;
+   
+    
+}
+.btn-light:hover{
+    background: #007bff;
+    color: aliceblue;
+}/*botones text-area*/
+.boton-write:hover{
+    background-color: #007bff !important;
+    color: whitesmoke !important;
+    box-shadow: 33px -9px 39px -12px rgba(11, 88, 161, 0.94);
+    -webkit-box-shadow: 33px -9px 39px -12px rgba(11, 88, 161, 0.94);
+    -moz-box-shadow: 33px -9px 39px -12px rgba(11, 88, 161, 0.94);
+    }
+    .boton-profile:hover{
+          background-color:#FFC300 !important;
+           box-shadow: 33px -9px 39px -12px rgba(125, 128, 12, 0.94);
+           -webkit-box-shadow: 33px -9px 39px -12px rgba(125, 128, 12, 0.94);
+           -moz-box-shadow: 33px -9px 39px -12px rgba(125, 128, 12, 0.94);
+    }
+    /*productos-pagina*/
+    .search{
+        background-color: white!important;
+    }
+    .tarjetas{
+        background-color: white !important;
+    }
+    .iconos{
+        position: relative;
+        top: -125px;
+        background-color: transparent !important;
+        
+    }
+    .productos{
+        background-color: #ccc !important;
+    }/*configuraciones-pagina*/
+    
+    #menu-central{
+        border: 2px solid mintcream;
+        border-radius: 10px;
+        ;
+        background-color: mintcream !important;
+    }
+    
+    #menu-central a:hover{
+        background-color: #cccc !important;
+        color: black !important;
+    }
+    p{
+        height: fit-content;
+        background-color: mintcream ;
+         border-radius: 10px;
+    }
+    .configuraciones{
+        background-color: white
+    }
+    .txt-conf{
+        background: mintcream;
+    }
+    
+    
+    
+    
+    
